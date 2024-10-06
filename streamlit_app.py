@@ -61,7 +61,7 @@ if(predict_btn):
     inp4 = float(p_width)
     
     # typecast the values to be float type
-    X = [inp1, inp2, inp3, inp4]
+    X = [[inp1, inp2, inp3, inp4]]
 
     species = model.predict(X)
 # the input values are passed onto the model for prediction
