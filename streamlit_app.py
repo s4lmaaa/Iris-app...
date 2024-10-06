@@ -72,7 +72,7 @@ if(predict_btn):
     with col15:
         st.write('')    
     with col16:
-        st.text(f"Predicted Iris Species: {predicted_species}")
+        st.text(f"Iris Species: {predicted_species}")
         # displays the species predicted by the model.
     with col17:
         st.write('')
