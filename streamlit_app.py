@@ -13,7 +13,7 @@ with col1:
 with col2:
     st.write('')    
 with col3:
-    st.title("Iris")
+    st.markdown('<h1 style="color:Red; font-family:Papyrus; font-size:22px;">PetalPro</h1>', unsafe_allow_html=True)
     # The title looks more centred, just to make it appealing 
 with col4:
     st.write('')
